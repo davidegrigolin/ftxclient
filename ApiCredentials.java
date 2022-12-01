@@ -6,9 +6,7 @@ public class ApiCredentials {
     private final String apiKey="";
     private final String secretKey= "";
     private String subAccountName ="";
-
-    public ApiCredentials(){}//constructor 
-
+    
     public String getApiKey(){
         return this.apiKey;
     }//getApiKey
